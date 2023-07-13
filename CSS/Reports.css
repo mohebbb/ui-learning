@@ -1,0 +1,81 @@
+
+body , html{
+    height: 100%;
+}
+
+body {
+    font: 1rem vazirmatn;
+}
+.body {
+        height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #0e2338;
+    background-image: linear-gradient( rgb(42,61,80) 30%,rgb(14, 35, 56),rgb(14, 35, 56) );
+    background-repeat: no-repeat;
+}
+
+.yourReports {
+    margin: 50px 0px auto 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    font: 1rem vazirmatn;
+    width: 90%;
+    height: 50px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn:hover {
+    border-color: #19579d;
+    color: #6ca5e7;
+    background-color: rgba(9, 27, 48, .3);
+}
+
+
+.table-and-title {
+    width: 90%;
+    margin: 40px 0px 40px 0px;
+    
+}
+
+.table-title {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+    padding: 0 5px;
+}
+
+#table {
+    overflow-x: scroll;
+    border-radius: 15px;
+}
+
+table {
+    width: 600px;
+    font-size: .9rem;
+    background-color: rgb(11, 44, 78);
+    color:  rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+}
+
+
+td , th{
+    color: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.5);
+    border-left: 1px solid  rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 5px 10px;
+}
+
+th {
+    background-color:  rgba(255, 255, 255, 0.25);
+}

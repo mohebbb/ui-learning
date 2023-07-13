@@ -1,0 +1,180 @@
+body {
+
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0e2338;
+    background-image: linear-gradient( rgb(42,61,80) 30%,rgb(14, 35, 56),rgb(14, 35, 56) );
+    background-repeat: no-repeat;
+}
+
+.card {
+    background-color: #1a344d;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 0;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.elements {
+    width: 100%;
+}
+.lable {
+    margin: 0 0 10px
+}
+
+.ctrlBox {
+    font: 1rem vazirmatn;
+    color: aliceblue;
+    width: 100%;
+    padding: 10px;
+    box-sizing:border-box;
+    background-color: #0c2440;
+    border: none;
+    outline:  none;
+    border-radius: 10px;
+}
+
+.ctrlBox:focus {
+    outline: solid 2px #19579d;
+}
+
+.btn:hover,
+.btnHover:hover,
+.btnSub:hover {
+    border: 0;
+    color: #6ca5e7;
+    outline: solid 2px #19579d;
+}
+
+.uploaderBoxes{
+    display: flex;
+    flex-direction: column;
+}
+.uploader {
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.upload {
+    display: none;
+}
+
+.btn {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .25);
+    border-radius: 10px;
+    color: aliceblue;
+    height:100%;
+    width: 110px;
+    border:0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fName {
+    height: 100%;
+    padding-right: 120px ;
+}
+.add {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+.addBtn {
+    font: 1rem vazirmatn;
+    /* background-color: #0c2440; */
+    background-color: rgba(9, 27, 48, .8);
+    border-radius: 10px;
+    color: aliceblue;
+    border:0;
+    text-align: center;
+    margin: 20px 0 0;
+    padding: 8px 10px;
+    width: 100px;
+    cursor: pointer;
+
+}
+.div {
+    margin: 0 0 20px;
+}
+.ctrlBox::placeholder {
+    font: .9rem vazirmatn;
+    color: #fff;
+    opacity: .8;
+}
+
+.ctrlBox:-moz-placeholder {
+    font: .9rem vazirmatn;
+    color: #fff;
+    opacity: .8;
+
+}
+
+.ctrlBox::-moz-placeholder {
+    font: .9rem vazirmatn;
+    color: #fff;
+    opacity: .8;
+}
+
+.ctrlBox::-webkit-input-placeholder {
+    font: .9rem vazirmatn;
+    color: #fff;
+    opacity: .8;
+}
+
+.ctrlBox::-ms-input-placeholder {
+    font: .9rem vazirmatn;
+    color: #fff;
+    opacity: .8;
+}
+
+.ctrl {
+    height: 40px;
+}
+
+.select {
+    appearance: none;
+
+}
+.selectBox {
+    position: relative;
+}
+
+.selectArrow {
+    color: aliceblue;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+#arrow {
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translate(-50% , -50%);
+}
+
+.btnSub {
+    font: 1rem vazirmatn;
+    width: 130px;
+    height: 45px;
+    background-color: rgba(9, 27, 48, .8);
+    /* outline: 1.5px solid aliceblue; */
+    color: rgba(255, 255, 255, 0.8);
+    border: 0px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+}
